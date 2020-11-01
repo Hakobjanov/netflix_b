@@ -16,7 +16,9 @@ export const Inner = styled.div`
 export const Item = styled.div`
   color: #ccc;
   margin-bottom: 10px;
-  max-width: 670px;
+  max-width: 100%;
+  width: 670px;
+  margin: auto;
 
   &:first-of-type {
     margin-top: 3em;
