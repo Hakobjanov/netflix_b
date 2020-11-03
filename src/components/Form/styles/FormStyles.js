@@ -15,7 +15,7 @@ export const Container = styled.div`
 `;
 export const Error = styled.div`
   background: #e87c03;
-  border-radius: 5px;
+  border-radius: 4px;
   font-size: 14px;
   margin: 0 0 16px;
   color: #fff;
