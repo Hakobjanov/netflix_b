@@ -1,5 +1,4 @@
 import React from "react";
-
 import { HeaderContainer } from "../containers/HeaderContainer";
 import { Feature } from "../components/index";
 import { AccordionContainer } from "../containers/AccordionContainer";
