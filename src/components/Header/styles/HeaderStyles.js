@@ -78,6 +78,7 @@ export const Picture = styled.button`
   width: 32px;
   height: 32px;
   cursor: pointer;
+  margin-right: 5px;
 `;
 
 export const Dropdown = styled.div`
@@ -88,6 +89,32 @@ export const Dropdown = styled.div`
   width: 100px;
   top: 32px;
   right: 10px;
+
+  ${Group}:last-of-type ${Link} {
+    cursor: pointer;
+  }
+
+  ${Group} {
+    margin-bottom: 10px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    ${Link}, ${Picture} {
+      cursor: default;
+    }
+  }
+
+  button {
+    margin-top: 10px;
+  }
+
+  p {
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 `;
 
 export const Profile = styled.div`
@@ -120,7 +147,6 @@ export const Feature = styled(Container)`
 export const Logo = styled.img`
   height: 32px;
   width: 108px;
-  margin-top: 25px;
   margin-right: 40px;
 
   @media (min-width: 1449px) {
