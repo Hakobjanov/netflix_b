@@ -16,6 +16,7 @@ import {
   Search,
   SearchIcon,
   SearchInput,
+  PlayBtn,
 } from "./styles/HeaderStyles";
 
 export default function Header({ bg = true, children, ...restProps }) {
@@ -24,6 +25,10 @@ export default function Header({ bg = true, children, ...restProps }) {
 
 Header.Feature = function HeaderFeature({ children, ...restProps }) {
   return <Feature {...restProps}>{children}</Feature>;
+};
+
+Header.PlayBtn = function HeaderPlayBtn({ children, ...restProps }) {
+  return <PlayBtn {...restProps}>{children}</PlayBtn>;
 };
 
 Header.TextLink = function HeaderTextLink({ children, ...restProps }) {

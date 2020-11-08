@@ -117,14 +117,36 @@ export const Dropdown = styled.div`
   }
 `;
 
+export const PlayBtn = styled.button`
+  box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);
+  background-color: #e6e6e6;
+  color: #000;
+  border-width: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  max-width: 130px;
+  font-size: 20px;
+  margin-top: 35px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+
+  &:hover {
+    background-color: #ff1e1e;
+    color: #fff;
+  }
+`;
+
 export const SearchIcon = styled.button`
   cursor: pointer;
   background-color: transparent;
+  outline: none;
   border: 0;
 
   img {
     filter: brightness(0) invert(1);
     width: 16px;
+    margin-right: 5px;
   }
 `;
 

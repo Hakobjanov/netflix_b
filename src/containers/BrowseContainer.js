@@ -62,6 +62,7 @@ export default function BrowseContainer({ slides }) {
             he projects in a futile attempt to feel like he is part of the world
             arround him.
           </Header.Text>
+          <Header.PlayBtn>Play Now</Header.PlayBtn>
         </Header.Feature>
       </Header>
     </>
